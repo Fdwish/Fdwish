@@ -1,0 +1,93 @@
+
+body {
+	background: #D7D7D7;
+	font-size: medium;
+	
+}
+
+.header {
+	padding: 20px 16px;
+	padding-bottom: 0px;
+	background: #555;
+	color: #000;
+	top: 0;
+}
+	header ul h1 {
+	color: #000;
+	margin-right: 60px;
+	float: left;
+}
+
+header ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	background: #4e4e4e;
+	border-radius: 5px;
+	
+}
+
+header li  {
+	float: left;
+	-ms-transform: skewX(-30deg);
+	-webkit-transform: skewX( -30deg );
+	transform: skewX( -30deg );
+	border-right: 10px solid #b5b5b5;
+}
+
+header	li a {
+		display: block;
+		padding: 15px;
+		font-weight: bold;
+		color: #000;
+		text-decoration: none;
+	}
+
+	header	li a p {
+			-ms-transform: skewX(30deg);
+			-webkit-transform: skewX( 30deg );
+			transform: skewX( 30deg );
+		}
+
+#h4Greetings {
+	float: right;
+	padding: 10px 130px;
+}
+.container {
+	width: 35%;
+	padding: 5%;
+	margin: 1% 1%;
+	background-color: darkgrey;
+	box-shadow: 3px 3px 9px grey;
+	display: inline-block;
+	font-size: 17px;
+}
+.containers {
+	width: 35%;
+	padding: 5%;
+	margin: 1% 1%;
+	background-color: darkgrey;
+	box-shadow: 3px 3px 9px grey;
+	display: inline-block;
+	font-size: 17px;
+}
+	#course_table th {
+	background: #808080;
+	height: 50px;
+	text-align: left;
+}
+
+.footer {
+	position: fixed;
+	left: 10;
+	bottom: 0;
+	right: 10;
+	width: 99%;
+	background-color: #4e4e4e;
+	color: black;
+}
+
+	.footer p {
+		margin: 20 35px;
+		float: right;
+	}
